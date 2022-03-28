@@ -10,7 +10,7 @@ import UIKit
 class NewsTableViewController: UITableViewController {
     
     var articles: [Article?] = []
-    let urlString = "https://newsapi.org/v2/everything?q=Apple&from=2022-02-06&sortBy=popularity&apiKey=19d1de2b28ea4c4085c92622e913b214"
+    let urlString = "https://newsapi.org/v2/top-headlines?country=us&apiKey=19d1de2b28ea4c4085c92622e913b214"
 
     override func viewDidLoad() {
         super.viewDidLoad()
